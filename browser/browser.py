@@ -77,6 +77,7 @@ def make_ui():
         util.printD(f"Loading data from API request: {url}")
 
         # IMPT: Since red update request api doesn't response preview images in 'com request without nsfw=true' and some results loss.
+        # IMPT: 20.04.2026 - Civitai fix this buggy. But meili search is still useful for better search experience. (PG Loras Included)
 
         json = civitai.civitai_get(url)
 
@@ -208,6 +209,7 @@ def make_ui():
             ]
         )
 
+    with gr.Row(equal_height=True):
         ch_nsfw_ckb = gr.Checkbox(
             label="Allow NSFW Models",
             value=util.get_opts("ch_nsfw_threshold") != "PG",

@@ -44,6 +44,11 @@ blockquote ol {
     justify-content: center;
     align-content: center;
 }
+
+#ch_nsfw_checkbox label span.ml-2 {
+    margin-left: 10px !important;
+}
+
 @media only screen and (min-width: 600px) {
     #ch_dl_preview_img {
         max-width: 512px;
