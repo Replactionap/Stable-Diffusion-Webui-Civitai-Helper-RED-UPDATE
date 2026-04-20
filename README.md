@@ -1,4 +1,4 @@
-##  stable-diffusion-webui-civitai-helper-RED-UPDATE
+## 🌟 stable-diffusion-webui-civitai-helper-RED-UPDATE
 
 Fork of one of the most convenient interfaces for viewing and downloading models. The developers have abandoned their repositories, so I'm taking over the development myself. From current improvements:
 
@@ -14,11 +14,6 @@ This is my personal version of Stable-Diffusion-Webui-Civitai-Helper. I started 
 I intend to keep this working for as long as I am able, but this is simply a hobby project and I am nowhere near as skilled as other extension developers with more experience. I am likely to dip out for long periods at a time, possibly forever if I lose interest. I am prone to errors and bugs are to be expected.
 
 If a more interested part decides to pick up development, I will happily cede control of this project and attempt to push my changes to their projects if they are wanted.
-
-# Civitai Helper
-Stable Diffusion Webui Extension for Civitai, to handle your models much more easily.
-
-Civitai: ![Civitai Url](https://civitai.com/models/16768/civitai-helper-sd-webui-civitai-extension)
 
 # Features
 * Scans all models to download model information and preview images from Civitai.
@@ -37,8 +32,6 @@ Civitai: ![Civitai Url](https://civitai.com/models/16768/civitai-helper-sd-webui
 
 * Option to always show additional buttons, to help with touchscreens.
 * To the best of my knowledge, this extension should still work in versions of webui prior to v1.5.0, but it is not tested. I make best-effort attempts to write code that *should* maintain compatibility with older versions, but if you have run into problems, please file an issue and I'll attempt to resolve it.
-
-* **New feature**: Automatically add metadata of model resources used to all generated images. Useful for uploading to Civitai. More information below.
 
 # Install
 Go to SD webui's extension tab, go to `Install from url` sub-tab.
